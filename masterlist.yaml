@@ -7010,6 +7010,10 @@ plugins:
     url: [ 'https://www.nexusmods.com/skyrim/mods/19281/' ]
     inc:
       - 'Ordinator - Perks of Skyrim.esp'
+      - 'PerkusMaximus_Mage.esp'
+      - 'PerkusMaximus_Master.esp'
+      - 'PerkusMaximus_Thief.esp'
+      - 'PerkusMaximus_Warrior.esp'
 ###### Patches - Compatibilty ######
   - name: 'Bells of Skyrim - OCS+ICAIO Patch.esp'
     url:

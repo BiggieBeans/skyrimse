@@ -7024,6 +7024,12 @@ plugins:
   - name: 'Requiem - Legendary Bugsmasher Edition.esp'
     group: *coreGroup
 
+###### Requiem - Compatibilty Patches ######
+  - name: 'Requiem - Relationship Dialogue Overhaul SE.esp'
+    req:
+      - 'Relationship Dialogue Overhaul.esp'
+      - 'Requiem.esp'
+
 ###### Patches - Compatibilty ######
   - name: 'Bells of Skyrim - OCS+ICAIO Patch.esp'
     url:

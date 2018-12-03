@@ -7008,6 +7008,7 @@ plugins:
     group: *ccGroup
   - name: 'Requiem.esp'
     url: [ 'https://www.nexusmods.com/skyrim/mods/19281/' ]
+    group: *lowPriorityGroup
     inc:
       - 'Ordinator - Perks of Skyrim.esp'
       - 'PerkusMaximus_Mage.esp'
@@ -7020,6 +7021,9 @@ plugins:
         subs: [ 'https://requiem.atlassian.net/wiki/spaces/REQ19/pages/18841705/Compatibility+with+other+mods+and+DLCs' ]
       - <<: *doNotClean
         condition: 'version("Requiem.esp", "1.9.3", >=)'
+  - name: 'Requiem - Legendary Bugsmasher Edition.esp'
+    group: *coreGroup
+
 ###### Patches - Compatibilty ######
   - name: 'Bells of Skyrim - OCS+ICAIO Patch.esp'
     url:

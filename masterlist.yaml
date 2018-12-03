@@ -7015,6 +7015,9 @@ plugins:
       - 'PerkusMaximus_Thief.esp'
       - 'PerkusMaximus_Warrior.esp'
       - 'SkyRe_Main.esp'
+    msg:
+      - <<: *compatNotes
+        subs: [ 'https://requiem.atlassian.net/wiki/spaces/REQ19/pages/18841705/Compatibility+with+other+mods+and+DLCs' ]
 ###### Patches - Compatibilty ######
   - name: 'Bells of Skyrim - OCS+ICAIO Patch.esp'
     url:

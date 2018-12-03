@@ -7018,6 +7018,8 @@ plugins:
     msg:
       - <<: *compatNotes
         subs: [ 'https://requiem.atlassian.net/wiki/spaces/REQ19/pages/18841705/Compatibility+with+other+mods+and+DLCs' ]
+      - <<: *doNotClean
+        condition: 'version("Requiem.esp", "1.9.3", >=)'
 ###### Patches - Compatibilty ######
   - name: 'Bells of Skyrim - OCS+ICAIO Patch.esp'
     url:

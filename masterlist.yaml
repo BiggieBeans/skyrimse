@@ -3567,6 +3567,15 @@ plugins:
     clean:
       - crc: 0xD5111397
         util: 'SSEEdit v3.2.40'
+  - name: 'Immersive Ingestibles.esp'
+    url:
+      - link: 'https://www.nexusmods.com/skyrim/mods/71708/'
+        name: 'Immersive Ingestibles on Nexus Mods'
+      - link: 'https://bethesda.net/en/mods/skyrim/mod-detail/2918135'
+        name: 'Turija Immersive Ingestibles on Bethesda.net'
+    after:
+      - `Hunterborn.esp`
+      - `Requiem.esp`
   - name: 'Imperious - Races of Skyrim.esp'
     url:
       - link: 'https://www.nexusmods.com/skyrimspecialedition/mods/1315/'

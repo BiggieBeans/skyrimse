@@ -7002,6 +7002,10 @@ plugins:
       - crc: 0x26558CDC # v1.4.2
         util: 'SSEEdit v3.2.84 EXPERIMENTAL'
 
+###### Requiem - The Roleplaying Overhaul ######
+  - name: 'Requiem Records Fix.esp'
+    url: [ 'https://www.nexusmods.com/skyrim/mods/19281/' ]
+    group: *ccGroup
 ###### Patches - Compatibilty ######
   - name: 'Bells of Skyrim - OCS+ICAIO Patch.esp'
     url:

@@ -1322,6 +1322,9 @@ plugins:
         condition: 'active("beltfastenedquivers.esp") and active("XPMSSE.esp")'
   - name: 'dD - Realistic Ragdoll Force -.*.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/1182/' ]
+    after:
+      - 'Requiem.esp'
+      - 'Requiem - Legendary Bugsmasher Edition.esp'
     msg:
       - <<: *AlreadyInX
         subs: [ 'XP32 Maximum Skeleton Special Extended' ]

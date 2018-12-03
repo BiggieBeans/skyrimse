@@ -4431,6 +4431,10 @@ plugins:
       - <<: *patchProvided
         subs: [ 'Ordinator - Perks of Skyrim' ]
         condition: 'active("Ordinator - Perks of Skyrim.esp") and not active("UndeathClassicalLichdom Ordinator Patch.esp")'
+  - name: 'Vampiric Thirst Redone.esp'
+    url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/13549' ]
+    after:
+      - 'Requiem.esp'
   - name: 'UltimateCombat.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/17196/' ]
     after:

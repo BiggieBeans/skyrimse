@@ -7021,6 +7021,11 @@ plugins:
         subs: [ 'https://requiem.atlassian.net/wiki/spaces/REQ19/pages/18841705/Compatibility+with+other+mods+and+DLCs' ]
       - <<: *doNotClean
         condition: 'version("Requiem.esp", "1.9.3", >=)'
+      - <<: *patch3rdParty
+        subs:
+          - 'Weapons Armor Clothing and Clutter Fixes'
+          - '[ Requiem - WACCF ](https://www.nexusmods.com/skyrimspecialedition/mods/21352/)'
+        condition: 'active("Weapons Armor Clothing & Clutter Fixes.esp") and not active("Requiem - WACCF.esp")'
   - name: 'Requiem - Legendary Bugsmasher Edition.esp'
     group: *coreGroup
 

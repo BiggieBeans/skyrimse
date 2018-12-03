@@ -7037,6 +7037,9 @@ plugins:
   - name: 'Requiem.esp'
     url: [ 'https://www.nexusmods.com/skyrim/mods/19281/' ]
     group: *lowPriorityGroup
+    after:
+      - 'Complete Alchemy & Cooking Overhaul.esp'
+      - 'Imperious - Races of Skyrim.esp'
     inc:
       - 'Ordinator - Perks of Skyrim.esp'
       - 'PerkusMaximus_Mage.esp'

@@ -1586,22 +1586,22 @@ plugins:
     msg:
       - <<: *patch3rdParty
         subs:
-          - ' `Cutting Room Floor` '
+          - ' Cutting Room Floor '
           - '[ Qwinn''s Unified Automated Self Installing Patch Compendium ](https://www.nexusmods.com/skyrimspecialedition/mods/18369)'
         condition: 'active("Cutting Room Floor.esp") and not active("Qw_Luminosity_CRF Patch.esp")'
       - <<: *patch3rdParty
         subs:
-          - ' `Immersive Citizens - AI Overhaul` '
+          - ' Immersive Citizens - AI Overhaul '
           - '[ Qwinn''s Unified Automated Self Installing Patch Compendium ](https://www.nexusmods.com/skyrimspecialedition/mods/18369)'
         condition: 'active("Immersive Citizens - AI Overhaul.esp") and not active("Qw_Luminosity_ImmersiveCitizens Patch.esp")'
       - <<: *patch3rdParty
         subs:
-          - ' `Immersive College of Winterhold` '
+          - ' Immersive College of Winterhold '
           - '[ Qwinn''s Unified Automated Self Installing Patch Compendium ](https://www.nexusmods.com/skyrimspecialedition/mods/18369)'
         condition: 'active("CollegeOfWinterholdImmersive.esp") and not active("Qw_Luminosity_ICoWinterhold Patch.esp")'
       - <<: *patch3rdParty
         subs:
-          - ' `Realistic Water Two` '
+          - ' Realistic Water Two '
           - '[ Qwinn''s Unified Automated Self Installing Patch Compendium ](https://www.nexusmods.com/skyrimspecialedition/mods/18369)'
         condition: 'active("RealisticWaterTwo.esp") and not active("Qw_Luminosity_RW2 Patch.esp")'
     tag:
@@ -1709,7 +1709,7 @@ plugins:
         condition: 'active("Immersive Sounds - Compendium.esp") and not active("Audio Overhaul Skyrim - Immersive Sounds Patch.esp")'
       - <<: *patch3rdParty
         subs:
-          - ' `Deadly Spell Impacts` '
+          - ' Deadly Spell Impacts '
           - '[ Qwinn''s Unified Automated Self Installing Patch Compendium ](https://www.nexusmods.com/skyrimspecialedition/mods/18369)'
         condition: 'active("DeadlySpellImpacts.esp") and not file("Qw_DeadlySpellImpacts_AOS Patch.esp")'
     clean:
@@ -1771,7 +1771,7 @@ plugins:
     msg:
       - <<: *patch3rdParty
         subs:
-          - ' `Deadly Spell Impacts` '
+          - ' Deadly Spell Impacts '
           - '[ Qwinn''s Unified Automated Self Installing Patch Compendium ](https://www.nexusmods.com/skyrimspecialedition/mods/18369)'
         condition: 'active("DeadlySpellImpacts.esp") and not file("Qw_DeadlySpellImpacts_ISC Patch.esp")'
     tag:
@@ -2657,7 +2657,7 @@ plugins:
         name: 'Sofia - The Funny Fully Voiced Follower on Nexus Mods'
     msg:
       - type: warn
-        content: 'Includes an old script from %1%. This script `%2%` must be deleted for %1% to function correctly.'
+        content: 'Includes an old script from %1%. This script %2% must be deleted for %1% to function correctly.'
         subs:
           - '[SkyUI](https://www.nexusmods.com/skyrimspecialedition/mods/12604/)'
           - ' ski_playerloadgamealias.pex '
@@ -2748,7 +2748,7 @@ plugins:
       - type: warn
         content: '%1% is already included in this mod.'
         subs:
-          - '`Realistic High Altitude Treeline`'
+          - 'Realistic High Altitude Treeline'
         condition: 'active("Realistic Treeline.esp")'
     clean:
       - crc: 0xBD798EA8
@@ -3303,7 +3303,7 @@ plugins:
     msg:
       - <<: *patch3rdParty
         subs:
-          - ' `Skyrim Sewers` '
+          - ' Skyrim Sewers '
           - '[ Brotherhood of Old and Skyrim Sewers Compatibility patch ](https://www.nexusmods.com/skyrimspecialedition/mods/17697)'
         condition: 'active("SkyrimSewers.esp") and not file("TBoO & SS Patch.esp")'
     clean:
@@ -3574,8 +3574,8 @@ plugins:
       - link: 'https://bethesda.net/en/mods/skyrim/mod-detail/2918135'
         name: 'Turija Immersive Ingestibles on Bethesda.net'
     after:
-      - `Hunterborn.esp`
-      - `Requiem.esp`
+      - 'Hunterborn.esp'
+      - 'Requiem.esp'
   - name: 'Imperious - Races of Skyrim.esp'
     url:
       - link: 'https://www.nexusmods.com/skyrimspecialedition/mods/1315/'
@@ -4794,32 +4794,32 @@ plugins:
     msg:
       - <<: *patch3rdParty
         subs:
-          - ' `Bijin All in One` '
+          - ' Bijin All in One '
           - '[ Scoped Bows Compatibility Kit - SBCK ](https://www.nexusmods.com/skyrimspecialedition/mods/19495)'
         condition: 'active("Bijin( AIO|_AIO 2018|_AIO-SV 2018)\.esp") and not file("ScopedBows_Bijin Patch.esp")'
       - <<: *patch3rdParty
         subs:
-          - ' `Bijin Warmaidens` '
+          - ' Bijin Warmaidens '
           - '[ Scoped Bows Compatibility Kit - SBCK ](https://www.nexusmods.com/skyrimspecialedition/mods/19495)'
         condition: 'active("Bijin Warmaidens.esp") and not file("ScopedBows_Bijin Patch.esp")'
       - <<: *patch3rdParty
         subs:
-          - ' `MorrowLoot Ultimate` '
+          - ' MorrowLoot Ultimate '
           - '[ Scoped Bows Compatibility Kit - SBCK ](https://www.nexusmods.com/skyrimspecialedition/mods/19495)'
         condition: 'active("MLU.esp") and not active("ZIA_Complete Pack_V4.esp") and not active("ScopedBows_MLU Patch.esp")'
       - <<: *patch3rdParty
         subs:
-          - ' `Weapons Armor Clothing & Clutter Fixes` '
+          - ' Weapons Armor Clothing & Clutter Fixes '
           - '[ Scoped Bows Compatibility Kit - SBCK ](https://www.nexusmods.com/skyrimspecialedition/mods/19495)'
         condition: 'active("Weapons Armor Clothing & Clutter Fixes.esp") and checksum("ScopedBows.esp", 5E29053A)'
       - <<: *patch3rdParty
         subs:
-          - ' `Zim''s Immersive Artifacts` '
+          - ' Zim''s Immersive Artifacts '
           - '[ Scoped Bows Compatibility Kit - SBCK ](https://www.nexusmods.com/skyrimspecialedition/mods/19495)'
         condition: 'active("ZIA_Complete Pack_V4.esp") and not active("MLU.esp") and not file("ScopedBows_ZIA Patch.esp")'
       - <<: *patch3rdParty
         subs:
-          - ' both `MorrowLoot Ultimate` and `Zim''s Immersive Artifacts` '
+          - ' both MorrowLoot Ultimate and Zim''s Immersive Artifacts '
           - '[ Scoped Bows Compatibility Kit - SBCK ](https://www.nexusmods.com/skyrimspecialedition/mods/19495)'
         condition: 'active("ZIA_Complete Pack_V4.esp") and active("MLU.esp") and not file("ScopedBows_MLU_ZIA Patch.esp")'
     tag:

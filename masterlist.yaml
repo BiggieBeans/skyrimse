@@ -7014,6 +7014,7 @@ plugins:
       - 'PerkusMaximus_Master.esp'
       - 'PerkusMaximus_Thief.esp'
       - 'PerkusMaximus_Warrior.esp'
+      - 'SkyRe_Main.esp'
 ###### Patches - Compatibilty ######
   - name: 'Bells of Skyrim - OCS+ICAIO Patch.esp'
     url:
